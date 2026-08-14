@@ -544,6 +544,11 @@ project/releng/generic-worker/datacenter-gecko-t-osx-1500-m4-ipv6:
   scopes:
     - assume:worker-type:releng-hardware/gecko-t-osx-1500-m4-ipv6
     - queue:worker-id:mdc1/mac*
+project/releng/generic-worker/datacenter-gecko-t-osx-1500-m4-safperf:
+  description: Datacenter MacOS M4 worker(s) dedicated to Safari/Safari Technology Preview testing on a current macOS 15.x point release (RELOPS-2332).
+  scopes:
+    - assume:worker-type:releng-hardware/gecko-t-osx-1500-m4-safperf
+    - queue:worker-id:mdc1/mac*
 project/releng/generic-worker/datacenter-gecko-t-osx-1500-m-vms:
   description: Datacenter MacOS dedicated developer and automation worker.
   scopes:
